@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f3f3f3;
+}
+
+.login-card {
+    width: 30rem;
+    margin: 15rem auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-logo {
+    width: 420px;
+    height: 60px;
+    margin: 0 auto;
+    background: url('assets/logo.png') no-repeat 80px 15px;
+    background-size: 250px;
+}
+
+
+.login-row {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    position: relative;
+    z-index: 100;
+    margin-top: 1rem;
+}
+
+.login-label {
+    display: inline-block;
+    font-weight: 700;
+    padding-bottom: 3px;
+    color: #222;
+    font-size: 1.2rem;
+}
+
+.login-input {
+    display: block;
+    line-height: 28px;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: #333;
+    height: 30px;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .035);
+}
+
+
+.login-panel-btn {
+    border: none;
+    outline: none;
+    background-color: #DC0105;
+    display: block;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+}
+
+
+
+.error {
+    font-size: 1.6rem;
+    color: #e52a5a;
+}
